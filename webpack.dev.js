@@ -15,7 +15,11 @@ if(process.env.GITPOD_WORKSPACE_URL){
 
 //only for codespaces
 if(process.env.CODESPACE_NAME){
+<<<<<<< HEAD
   publicUrl = `wss://${process.env.CODESPACE_NAME}-${port}.preview.app.github.dev/ws`;
+=======
+  publicUrl = `wss://${process.env.CODESPACE_NAME}-${port}.app.github.dev/ws`;
+>>>>>>> novo-repo/main
 }
 
 module.exports = merge(common, {

@@ -10,8 +10,11 @@ import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
+<<<<<<< HEAD
 import Login from "./pages/login";
 import Private from "./pages/private"
+=======
+>>>>>>> novo-repo/main
 
 //create your first component
 const Layout = () => {
@@ -28,8 +31,11 @@ const Layout = () => {
                     <Navbar />
                     <Routes>
                         <Route element={<Home />} path="/" />
+<<<<<<< HEAD
                         <Route element={<Login />} path="/login"/>
                         <Route element={<Private />} path="/private" />
+=======
+>>>>>>> novo-repo/main
                         <Route element={<Demo />} path="/demo" />
                         <Route element={<Single />} path="/single/:theid" />
                         <Route element={<h1>Not found!</h1>} />

@@ -3,9 +3,13 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "workbench.editorAssociations": {   
         "*.md": "vscode.markdown.preview.editor"
+<<<<<<< HEAD
     },
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "python.formatting.provider": "none"
+=======
+    }
+>>>>>>> novo-repo/main
 }
